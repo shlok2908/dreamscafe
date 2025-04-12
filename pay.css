@@ -1,0 +1,232 @@
+header {
+    margin-bottom: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+header {
+    display: block;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+body {
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: #6B2424;
+    color: #fff;
+}
+.a{
+    background-position: 0px; 
+    margin-right: 6px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 29px;
+    width: 45px;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/payments-portal/r1/issuer-images/sprite-map._CB443317321_.png'); 
+}
+.b{
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/payments-portal/r1/issuer-images/sprite-map._CB443317321_.png'); 
+    background-position: -45px; 
+    margin-right: 6px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 29px;
+    width: 45px;
+}
+.c{
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/payments-portal/r1/issuer-images/sprite-map._CB443317321_.png'); 
+    background-position: -810px; 
+    margin-right: 6px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 29px;
+    width: 45px;
+}
+
+.m{
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+
+
+.type{
+   background-color: #bb9292;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.n{
+    margin-left: -145px;
+    padding-top: 10px;
+}
+
+/* Dropdown menu */
+.dropbtn {
+    border-radius: 10px;
+    background-color: #905c5c;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #905c5cf2;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    border-radius: 10px;
+    background-color: #ab7979;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #9c5b5bbf;}
+
+  .o{
+    margin-left: -124px;
+  }
+  .d{
+    margin-left: -110px;
+  }
+
+  /* Credit Card css */
+  
+  input{
+    border-radius: 3px;
+    background-color: #d2b4b4;
+   
+  }
+
+
+.card-info{
+    display: none; /* hide the element by default */
+
+    background-color: #a76d6d;
+    border-radius: 5px;
+    padding: 4%;
+    margin-left: 100px;
+    margin-right: 90px;
+    padding-left: 9%;
+    
+  }
+  
+  input[type="radio"]#cards:checked ~ .card-info {
+    display: block; 
+    /* show the element when the "cards" radio button is checked */
+  }
+
+  .upi{
+    display: none;
+    background-color: #a76d6d;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 100px;
+    margin-right: 90px;
+    
+  }
+
+  input[type="radio"]#upi-apps:checked ~ .upi {
+    display: block; 
+  }
+
+  .p{
+    background-color: #d2b4b4;
+    color: black;
+    margin-left: 73%;
+    margin-right: 15%;
+    margin-top: -21px;
+    border-radius: 4px;
+    padding-left: 2.5%;
+  }
+
+  .card-info div{
+    text-align: left;
+  }
+
+  .card-info div input{
+    display: inline-block;
+    
+    box-sizing: border-box;
+  }
+
+
+#card-number{
+    margin-left: 10%;
+}
+
+#holder-name{
+    margin-left: 3%;
+}
+
+#exp{
+    margin-left: 13%;
+    padding-right: 5.5%;
+}
+
+#cvv{
+    margin-left: 25.3%;
+    
+}
+
+#process{
+  padding: 1%;
+  background-color: #bb9292;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+#Verify{
+  background-color: #bb9292;
+  padding: 1%;
+}
+
+#ex{
+  padding: 1%;
+}
+
+#upi_id{
+  margin-left: -50px;
+}
+
+.cod_submit{
+  display: none;
+  padding: 1%;
+  margin-top: 1%;
+  margin-left: 43%;
+  background-color: #a76d6d;
+  color: #fff;
+}
+
+input[type="radio"]#cod:checked ~ .cod_submit {
+  display: block; 
+}
